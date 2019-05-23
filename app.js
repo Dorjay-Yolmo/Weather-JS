@@ -20,6 +20,7 @@ document.getElementById('w-change-btn').addEventListener('click', (e) => {
   // Set Location in Local Storage
   storage.setLocationData(city);
 
+  // Repaint with new Location 
   getWeather();
 
   // Close Modal
